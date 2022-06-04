@@ -1,6 +1,6 @@
 const CAHNGE_NAME = "cat/CHANGE_NAME";
 
-const initial_state = { name: "펄이 고양이", age: 5 };
+const initial_state = { name: "펄이 고양이", age: 100 };
 
 export const changeName = (name) => {
   return { type: CAHNGE_NAME, name };

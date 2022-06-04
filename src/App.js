@@ -1,7 +1,8 @@
 import "./App.css";
 
 import { useSelector, useDispatch } from "react-redux";
-import { changeName } from "./redux/module/cat";
+// import { changeName } from "./redux/module/cat";
+import { changeName } from "./redux/module/catSlice";
 function App() {
   const cat = useSelector((state) => state.cat);
   console.log(cat);
